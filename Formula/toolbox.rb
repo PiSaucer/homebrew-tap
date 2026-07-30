@@ -4,6 +4,12 @@ class Toolbox < Formula
   url "https://github.com/PiSaucer/toolbox/archive/refs/tags/v1.0.1.tar.gz"
   sha256 "8216278c32f0fb3511dee97b487dfc3a98416804639d8fd0892e59ffa3bc98d2"
   license "MIT"
+  head "https://github.com/PiSaucer/toolbox.git", branch: "main"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   depends_on "python"
 
@@ -18,6 +24,16 @@ class Toolbox < Formula
 
     zsh_completion.install "completions/_toolbox"
     bash_completion.install "completions/toolbox.bash"
+  end
+
+  def caveats
+    <<~EOS
+      Run the interactive launcher with:
+        toolbox
+
+      Download scripts directly with:
+        toolbox SCRIPT_ID
+    EOS
   end
 
   test do
