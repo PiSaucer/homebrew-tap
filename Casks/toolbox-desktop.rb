@@ -12,12 +12,9 @@ cask "toolbox-desktop" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "toolbox desktop.app"
-
-  binary "#{appdir}/toolbox desktop.app/Contents/MacOS/toolbox",
-         target: "toolbox"
 
   zap trash: [
     "~/Library/Application Support/toolbox",
