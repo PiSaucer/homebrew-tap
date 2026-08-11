@@ -12,6 +12,7 @@ cask "toolbox-desktop" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "toolbox desktop.app"
