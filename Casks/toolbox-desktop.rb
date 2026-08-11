@@ -1,6 +1,6 @@
 cask "toolbox-desktop" do
-  version "1.0.0"
-  sha256 "2b551978b34ca0bc920003ff865ee3ea91b0a708447c55d3340bbfbcbe4688f4"
+  version "1.0.4"
+  sha256 "d9d87c0498e752c8f64cbff6f3843cebb334c626205fcaa18e294e95c16e0ad2"
 
   url "https://github.com/PiSaucer/toolbox-desktop/releases/download/v#{version}/toolbox-desktop-#{version}-macos.dmg"
   name "Toolbox Desktop"
