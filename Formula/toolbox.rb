@@ -3,8 +3,8 @@ class Toolbox < Formula
 
   desc "Interactive launcher and downloader for PiSaucer toolbox of utility scripts"
   homepage "https://github.com/PiSaucer/toolbox"
-  url "https://github.com/PiSaucer/toolbox/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "cf85da40d43a34fd29a8b116d49bd80d7863057ba6627e895ec348a85348b020"
+  url "https://github.com/PiSaucer/toolbox/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "b21519500f87f2365f8d89ac405befa0b9138201c45c955ebc9c22208febee0f"
   license "MIT"
   head "https://github.com/PiSaucer/toolbox.git", branch: "main"
 
