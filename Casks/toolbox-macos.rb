@@ -1,14 +1,14 @@
-cask "toolbox-desktop" do
+cask "toolbox-macos" do
   version "1.0.4"
   sha256 "d9d87c0498e752c8f64cbff6f3843cebb334c626205fcaa18e294e95c16e0ad2"
 
-  url "https://github.com/PiSaucer/toolbox-desktop/releases/download/v#{version}/toolbox-desktop-#{version}-macos.dmg"
-  name "Toolbox Desktop"
+  url "https://github.com/PiSaucer/toolbox-macos/releases/download/v#{version}/toolbox-desktop-#{version}-macos.dmg"
+  name "Toolbox Desktop (MacOS)"
   desc "Browse, download, verify, and run PiSaucer toolbox utility scripts"
-  homepage "https://github.com/PiSaucer/toolbox"
+  homepage "https://github.com/PiSaucer/toolbox-macos"
 
   livecheck do
-    url "https://github.com/PiSaucer/toolbox-desktop"
+    url "https://github.com/PiSaucer/toolbox-macos"
     strategy :github_latest
   end
 
