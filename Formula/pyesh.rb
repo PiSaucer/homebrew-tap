@@ -3,8 +3,8 @@ class Pyesh < Formula
 
   desc "Cross-platform, Python-oriented interactive and scripting shell"
   homepage "https://github.com/PiSaucer/pyesh"
-  url "https://github.com/PiSaucer/pyesh/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "b4d5acdd993057271e2829bf89f40f6e5fca462753f09a4fbd1c54eb6761dafd"
+  url "https://github.com/PiSaucer/pyesh/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "3d0a1647326d68117e76e4a74b97d968f7a8dd749abebf9751d692be2d5dbbae"
   license "MIT"
   head "https://github.com/PiSaucer/pyesh.git", branch: "main"
 
